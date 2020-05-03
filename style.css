@@ -112,12 +112,15 @@ h_top {
 	CV
  -------------------------------------------------------------------------- */
 .cv-items > dt {
+    font-family:"Hiragino Kaku Gothic ProN";
+    float: left;
     margin: 0 0 0 1em;
 }
-.cv-items > dd {
-    margin: 0 0 1ex 15.5em;
-}
 
+.cv-items > dd {
+    font-family:"Hiragino Kaku Gothic ProN";
+    margin: 0 0 1ex 14.5em;
+}
 
 /* --------------------------------------------------------------------------
 	publications
