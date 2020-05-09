@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: skyblue;
+    color: blue;
     text-decoration: none;
 }
 
@@ -112,7 +112,9 @@ h_top {
 	CV
  -------------------------------------------------------------------------- */
 .cv-items > dt {
-    font-family:"Helvetica";
+    font-family:"Areal";
+/*    font-style:italic;*/
+    font-size: 18px;
     float: left;
     margin: 0 0 0 1em;
 }
