@@ -100,11 +100,14 @@ h_top {
     Latest News
  -------------------------------------------------------------------------- */
 .News > dt {
+    font-family:"Areal";
+    font-size: 18px;
     float: left;
-    margin: 0 2em 0 3em;
+    margin: 0 0em 0 1em;
 }
 .News > dd {
-    margin: 0 0 0 0;
+    font-family:"Helvetica";
+    margin: 0 0 0 8em;
 }
 
 
