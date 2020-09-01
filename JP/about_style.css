@@ -1,0 +1,89 @@
+td {font-family:"Hiragino Kaku Gothic ProN"; font-size: 12pt; line-height: 150%}
+
+
+h3 {
+    position: relative; background-color: #f6f6f6;  border-radius: 6px;
+    padding: .75em 1em .75em 1.5em;
+    border: 1px solid #ccc;
+}
+h3::after {
+    position: absolute;
+    top: .5em;
+    left: .5em;
+    content: '';
+    width: 6px;
+    height: -webkit-calc(100% - 1em);
+    height: calc(100% - 1em);
+    background-color: #3498db;
+    border-radius: 4px;
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+/* --------------------------------------------------------------------------
+	Profile
+ -------------------------------------------------------------------------- */
+.profile-items > profile_img {
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.profile-items > profile_name {
+    margin: 0 0 0 0;
+}
+
+
+
+/* --------------------------------------------------------------------------
+	CV
+ -------------------------------------------------------------------------- */
+.cv-items > dt {
+    float: left;
+    margin: 0  0 0 1em;
+}
+
+.cv-items > dd {
+    margin: 0 0 1ex 15.5em;
+}
+
+
+/* --------------------------------------------------------------------------
+	publications
+ -------------------------------------------------------------------------- */
+
+.pub-items > pdt {
+    float: left;
+    margin: 0.5em 1em 0em 1em; /* 3番目が高さ下方向のmargin、大きくすると下に影響が */
+}
+
+.pub-items > pub_title {
+    font-family:"Times New Roman";
+    font-size: 18px;
+    margin: 10em 0 10em 0;
+    line-height: 200%;
+}
+
+.pub-items > pub_item {
+    font-family:"Times New Roman";
+    font-size: 15px;
+    line-height: 120%;
+    margin: 10 0 0 0;
+}
+
+.pub-items > journal {
+    font-family:"Times New Roman";
+    font-size: 15px;
+    width: 580px;
+    background-color: #f9f6f6;
+    padding: 6 10;
+    margin: 10 0 0 0;
+    float: left;
+}
+
+
