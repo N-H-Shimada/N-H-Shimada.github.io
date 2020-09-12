@@ -16,7 +16,7 @@ a {
 h1 {
     font-family:"Times New Roman";
     font-size: 24px;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
     padding-top: 0px;
     margin-block-start: 0em;
     border-bottom: 1px solid #eee;
@@ -49,7 +49,7 @@ h3::after {
 dl {
     display: block;
     -webkit-margin-before: 0em;
-    -webkit-margin-after: 2em;
+    -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
@@ -164,8 +164,11 @@ footer
 .wrapper{
     min-height: 100vh;
     position: relative;
+    padding-bottom: 80px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
 footer{
+    
     position:absolute;
     bottom:0;
 }
