@@ -5,6 +5,7 @@ body {
     font-size: 8pt;
     margin: 0.0em 0 0 0; /*top,left,bottom,right*/
     font-family:"Helvetica";
+    overflow-y: scroll;
 }
 
 a {
@@ -155,6 +156,18 @@ h_top {
     padding: 6 10;
     margin: 10 0 0 0;
     float: left;
+}
+
+/* --------------------------------------------------------------------------
+footer
+ -------------------------------------------------------------------------- */
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+}
+footer{
+    position:absolute;
+    bottom:0;
 }
 
 
