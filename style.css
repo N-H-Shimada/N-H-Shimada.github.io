@@ -88,18 +88,22 @@ h_top {
 /* --------------------------------------------------------------------------
 	Profile
  -------------------------------------------------------------------------- */
-.profile-items > profile_img {
+.profile > img {
     float: left;
     margin: 0 1em 0 0;
 }
-.profile-items > profile_name {
+.profile > description {
     margin: 0 0 0 0;
     font-family:"Helvetica";
     font-size: 16px;
     padding-bottom: 6px;
     padding-top: 0px;
 }
-
+.profile > icons {
+    margin: 2 2 2 2;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
 
 /* --------------------------------------------------------------------------
     Latest News
