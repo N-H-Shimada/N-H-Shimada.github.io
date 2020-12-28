@@ -165,6 +165,12 @@ h_top {
     margin: 10 0 0 0;
     float: left;
 }
+.pub-items > profile {
+    font-family:"Helvetica";
+    font-size: 16px;
+    line-height: 100%;
+    margin: 10 0 20 0;
+}
 
 /* --------------------------------------------------------------------------
 footer
